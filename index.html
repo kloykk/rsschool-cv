@@ -4,9 +4,97 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> <link href="https://fonts.googleapis.com/css2?family=Hind:wght@400&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <header class = "header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#personalinformation" class="nav-link">&#9656; Personal information</a></li>
+                    <li class="nav-item"><a href="#objective" class="nav-link">&#9656; Objective</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">&#9656; Skills</a></li>
+                    <li class="nav-item"><a href="#codeexample" class="nav-link">&#9656; Code example</a></li>
+                    <li class="nav-item"><a href="#completedprojects" class="nav-link">&#9656; Completed projects</a></li>
+                    <li class="nav-item"><a href="#specialskills" class="nav-link">&#9656; Special skills and education</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+        
+    <main class = "main">
+        <div class="container">
+            <section class="section" id="profile">
+                <table>
+                    <tr> 
+                        <td>
+                            <h2 class="section-title" id="personalinformation">Personal information</h2>
+                            <img class="avatar" src="assets/img/image.jpg" alt="user avatar">
+                        </td>
+
+                        <td  style="vertical-align:bottom">
+                            <h1>Kirill Loyk</h1> 
+                            <p>(19 y.o.)</p>
+                            <p>Novosibirsk, Russia</p>
+                            <p><strong>kloykk@mail.ru</strong></p>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+
+            <section class="section" id="summary">
+                <h2 class="section-title" id="objective">Objective</h2>
+                <p>Frontend developer (<strong>student</strong>)</p>
+            </section>
+
+            <section class="section" id="skills">
+                <h2 class="section-title" id="skills">Skills</h2>
+                <ul>
+                    <li>Critical thinking</li>
+                    <li>Adaptability</li>
+                    <li>Effective interaction</li>
+                </ul>
+            </section>
+
+            <section class="section" id="code">
+                <h2 class="section-title" id="codeexample">Code example</h2>
+                <div class="example">
+                <p>a = 0</p>
+                <p>while a == 0:</p>
+                <p>&nbsp; print("hahaha!")</p>
+                </div>
+            </section>
+
+            <section class="section" id="projects">
+                <h2 class="section-title" id="completedprojects">Completed projects</h2>
+                <ul>
+                    <li><a target="_blank" class="project-link" href="https://codepen.io/insouldesigners/pen/XWqVzJX">Changing lives</a></li>
+                    <li><a target="_blank" class="project-link" href="https://codepen.io/insouldesigners/pen/MWGZERN">Psychoemotional state</a></li>
+                </ul>
+            </section>
+
+            <section class="section" id="languages">
+                <h2 class="section-title" id="specialskills">Special skills and education</h2>
+                    <p><strong>Secondary School</strong></p>
+                    <p>Russian &mdash; native</p>
+                    <p>English &mdash; pre-intermediate</p>
+            </section>
+        </div>
+    </main>
+        
+    <footer class = "footer">
+        <div class="container">
+            <a class="footer-info" target="_blank" href="https://github.com/kloykk">GitHub</a>
+            <span class="footer-info">2022</span>
+            <a class="footer-info" target="_blank" href="https://rs.school/js/">
+                <img class="link-course" src="assets/img/logo_rsschool.jpg" alt="logo-rsschool">
+            </a>
+        </div>
+    </footer>
 </body>
 </html>
