@@ -1,7 +1,7 @@
 body{
-    font-family: 'Hind', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
 
-    font-weight: 400;
+    font-weight: 800;
 
     min-height: 100vh;
     margin: 0; padding: 0;
@@ -63,10 +63,10 @@ html {
 }
 
 .section-title {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
 
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 300;
     
     letter-spacing: 3px;
     color: #8535d1;
@@ -107,3 +107,14 @@ footer a {
     text-decoration: none;
     color: #4f87ee;
 }
+
+.contacts {
+    list-style: none;
+    margin-left: -40%;
+    color:black;
+}
+
+h1 {
+    color:black;
+}
+
